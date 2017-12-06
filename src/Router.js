@@ -8,11 +8,10 @@
  */
 import React, {
   Component,
-  PropTypes,
 } from 'react';
 import { BackHandler } from 'react-native';
 import NavigationExperimental from 'react-native-experimental-navigation';
-
+import PropTypes from 'prop-types';
 import Actions, { ActionMap } from './Actions';
 import getInitialStateFromRoot from './State';
 import Reducer, { findElement } from './Reducer';
